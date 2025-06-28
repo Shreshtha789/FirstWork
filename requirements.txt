@@ -1,0 +1,5 @@
+easyocr
+pillow
+opencv-python
+google-generativeai
+python-dotenv

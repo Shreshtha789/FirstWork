@@ -1,0 +1,17 @@
+You are an assistant extracting structured data from shop receipts.
+
+Extract:
+- Merchant Name
+- Date of Purchase
+- Total Amount
+- Payment Method
+- List of Items (name, quantity, price)
+
+TEXT:
+{text}
+
+INSTRUCTIONS:
+- Dates must be in YYYY-MM-DD format.
+- Return null for any missing field.
+- Respond with valid JSON only.
+- Do not include explanations or markdown.

@@ -1,0 +1,21 @@
+You are a document extraction assistant.
+
+Given the text content of a Driving License, extract the following fields as JSON:
+- Name
+- Date of Birth
+- License Number
+- Issuing State
+- Expiry Date
+
+TEXT:
+{text}
+
+INSTRUCTIONS:
+- Return all dates in YYYY-MM-DD format.
+- Return null if any field is missing.
+- Return only valid JSON.
+- Do NOT include:
+    - Any explanation
+    - Markdown
+    - Introductory text like "Sure, here's your JSON"
+    - Any notes or footers

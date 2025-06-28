@@ -1,0 +1,38 @@
+{
+    "Merchant Name": "Walmart",
+    "Date of Purchase": "2019-04-27",
+    "Total Amount": "32.00",
+    "Payment Method": null,
+    "List of Items": [
+        {
+            "name": "8323173885380",
+            "quantity": 2,
+            "price": "2.88"
+        },
+        {
+            "name": "002190848816",
+            "quantity": 1,
+            "price": "8.88"
+        },
+        {
+            "name": "003120607000",
+            "quantity": 1,
+            "price": "8.66"
+        },
+        {
+            "name": "007874219410",
+            "quantity": 1,
+            "price": "8.88"
+        },
+        {
+            "name": "935866285",
+            "quantity": 1,
+            "price": "2.74"
+        },
+        {
+            "name": "601072-162746",
+            "quantity": 1,
+            "price": "0.00"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+You are an assistant that extracts structured data from resumes.
+
+Extract:
+- Full Name
+- Email
+- Phone Number
+- Skills
+- Work Experience (company, role, dates)
+- Education (institution, degree, graduation year)
+
+TEXT:
+{text}
+
+INSTRUCTIONS:
+- Return only valid JSON.
+- Do not include any explanation or extra text.
+- Return null for missing fields.
